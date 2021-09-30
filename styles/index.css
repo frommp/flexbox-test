@@ -1,0 +1,58 @@
+main {
+    height: 100vh;
+    background-color: paleturquoise
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px; 
+
+}
+
+.red-title{
+    color: red;
+}
+
+.green-title {
+    color: rgb(11, 241, 11);
+}
+
+.party-pill {
+    color: yellow;
+}
+
+.card {
+    max-width: 200px;
+    min-height: 250px;
+    background-color: chocolate;
+    border-radius: 10px;
+    margin: 70px;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+}
+
+.btn {
+    position: absolute;
+    justify-content: flex-end;
+    bottom: 10px;
+    width: 90%;
+    height: 40px;
+    border: none;
+    background-color: rgb(238, 238, 79);
+}
+
+.btn--success {
+    background-color: rgb(5, 197, 5);
+}
+
+.btn--decline {
+    background-color: rgb(241, 35, 35);
+}
+
+element.style {
+    justify-content: flex-end;
+}
